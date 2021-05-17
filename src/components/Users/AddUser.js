@@ -30,15 +30,6 @@ const AddUser = (props) => {
     setEnteredUsername('');
     setEnteredAge('');
   };
-
-  const usernameChangeHandler = (event) => {
-    setEnteredUsername(event.target.value);
-  };
-
-  const ageChangeHandler = (event) => {
-    setEnteredAge(event.target.value);
-  };
-
   const errorHandler = () => {
     setError(null);
   };
